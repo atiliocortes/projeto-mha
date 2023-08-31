@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    background-color: black;
+}
+
+#logo{
+    width: auto;
+    height: 75px;
+}
+
+header{
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav{
+    width: 60%;
+}
+
+ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+li{
+    list-style: none;
+    color: #cccccc;
+    font-size: 19px;
+    font-family: 'Kdam Thmor Pro' , sans-serif;
+    transition: .2s;
+}
+
+li:hover{
+    color: #666666;
+}
+
+#critic-container{
+
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 400px;
+    margin-top: 100px;
+    gap: 50px;
+
+    
+}
+
+.body-critic{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #339E61;
+    font-size: 30px;
+    font-family: 'Kdam Thmor Pro' , sans-serif;
+}
+
+.critic{
+    width: 50%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #cccccc;
+    font-size: 20px;
+    font-family: 'Kdam Thmor Pro' , sans-serif;
+}
+
+footer{
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+spam{
+    color: gold;
+    font-family: 'Kdam Thmor Pro' ,sans-serif;
+}
+
+.footer-navegation{
+    display: none;
+}
+
+.footer-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media(max-width: 768px){
+
+    .footer-navegation{
+          display: block;
+    }
+
+    nav{
+            display: none;
+    }
+
+    #critic-container{
+        width: 300px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .body-critic{
+        font-size: 20px;
+    }
+
+    .critic{
+        width: 100%;
+    
+    }
+
+    
+
+    
+
+
+
+   
+        
+            
+     
+
+}

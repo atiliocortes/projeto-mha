@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background-color: black;
+}
+
+header{
+    background-color: black;
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav{
+    width: 60%;
+}
+
+ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+li{
+    font-family: 'Kdam Thmor Pro' ,sans-serif;
+    font-size: 19px;
+    color: #cccccc;
+    transition: 0.2s;
+}
+
+li:hover{
+    color: #666666;
+}
+
+#logo{
+    width: auto;
+    height: 75px;
+}
+
+.album{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+
+.pagina{
+    background-color:black;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 4fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.foto{
+    background-color:black;
+    width: 90%;
+    height: 200px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 20px 10px;
+    margin-left: 20px;
+    transition: 1s;
+    background-size: cover;
+}
+
+.foto:hover{
+    transform: scale(1.2);
+}
+
+.foto-1{
+    background-image: url('https://areajugones.sport.es/wp-content/uploads/2021/08/boku-no-hero-academia-the-movie-world-heroes-mission-occidente.jpg');
+}
+
+.foto-2{
+    background-image: url('https://ovicio.com.br/wp-content/uploads/2021/07/20210706-my-hero-academia-8.jpg');
+}
+
+.foto-3{
+    background-image: url('https://coolthemestores.com/wp-content/uploads/2022/04/My-Hero-Academia-World-Heroes-Mission-wallpaper-background.jpg');
+}
+
+.foto-4{
+    background-image: url('https://i.pinimg.com/originals/c3/e3/5f/c3e35fd9f3c3418dcc6462690cc4517b.gif');
+}
+
+.foto-5{
+    background-image: url('https://media.tenor.com/6d-whLGpo-QAAAAd/boku-no-hero-academia-my-hero-academia.gif');
+}
+
+.foto-6{
+    background-image: url('https://media.tenor.com/TueJOpss2pkAAAAd/my-hero-academia-world-heroes-mission.gif');
+}
+
+.foto-7{
+    background-image: url('https://media.tenor.com/P3KODGI_azoAAAAd/my-hero-academia-world-heroes-mission.gif');
+}
+
+.foto-8{
+    background-image: url('https://media.tenor.com/-xMlhpRE3k0AAAAd/my-hero-academia-world-heroes-mission.gif');
+}
+
+.foto-9{
+    background-image: url('https://64.media.tumblr.com/b58e05b688957dba0231adef01a806c0/2b2ff3017b3749d5-de/s540x810/ebc913803ae016e5fd5c11467679c8be345e4035.gif');
+}
+
+.foto-10{
+    background-image: url('https://media.tenor.com/2hw7xz6uZlIAAAAd/my-hero-academia-world-heroes-mission.gif');
+}
+
+.foto-11{
+    background-image: url('https://64.media.tumblr.com/afd932911f4a9948564764759c5b5011/3e5038412f41ca76-76/s540x810/a27b12320a79b7986f87874bbee9e543dec13e43.gif');
+}
+
+.foto-12{
+    background-image: url('https://64.media.tumblr.com/003cbd119c7bc82a2272539a33641266/6cb6ebb5db1f89d1-d4/s640x960/41205e405ffeb126b231c60c31c7488a1b782c89.gif');
+}
+
+
+footer{
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+spam{
+    color: #fff;
+    font-family: 'Kdam Thmor Pro' ,sans-serif;
+}
+
+.footer-navegation{
+    display: none;
+}
+
+.footer-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media(max-width: 768px){
+    .footer-navegation{
+        display: block;
+    }
+
+    nav{
+        display: none;
+    }
+
+   .pagina{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-right: 15px;
+   }
+}
