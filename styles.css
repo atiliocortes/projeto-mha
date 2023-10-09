@@ -3,7 +3,7 @@
 * {
     margin: 0;
     padding: 0;
-    background-color: black;
+    background-color: #000;
     list-style: none;
     text-decoration: none;
 }
@@ -63,6 +63,7 @@ li:hover {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
 }
 
 .trailer {
@@ -154,7 +155,7 @@ li:hover {
 }
 
 .banner-3 {
-    background-image: url('https://anicafe.com.br/wp-content/uploads/2022/04/yuuki-kaji.jpeg');
+    background-image: url('https://m.media-amazon.com/images/M/MV5BYjY5NWQ4NmItNzhkYS00OWUzLTlmNDQtNjdhZmI2ZDRkNWU1XkEyXkFqcGdeQXVyMTExNDQ2MTI@._V1_FMjpg_UX1000_.jpg');
 }
 
 footer {
